@@ -779,5 +779,8 @@ a, a:hover, a:active, a:focus { text-decoration: none; }
   .navbar-default .navbar-nav > li > a:hover { border: none; font-weight: bold; opacity: 1; color: white; }
   .nav > li { display: block !important; } }
 .post { overflow: hidden; padding: 0; max-height: 270px; }
+.post .content-image { width: 300px; height: 300px; }
+.post .content-image a { overflow: hidden; max-height: 100%; }
+.post .content-image a img { width: 300px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=main.css.map */
