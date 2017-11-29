@@ -21,27 +21,14 @@ a, a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
-.ssba, .ssba a {
-        text-decoration: none;
-    border: 0;
-    background: none;
-    font-family: Indie Flower;
-    font-size: 20px;
-    font-weight: bold;
-}
-.ssba img {
-        width: 50px;
-    padding: 6px;
-    border: 0;
-    box-shadow: none !important;
-    display: inline !important;
-    vertical-align: middle;
+p {
+    margin: 0;
 }
 
+
+
 @media only screen and (min-width: $xs) {
-     .p-a-50 {
-  padding: 0px 45px 15px 45px;
-}
+
 .meta-single {
     margin: 0 auto;
 }
@@ -129,14 +116,6 @@ a, a:hover, a:active, a:focus {
     padding-bottom: 30px;
 
 }
-.site-main {
-    article:nth-child(1) {
-        .content-geral {
-            box-shadow: 0px 5px 40px 0 rgba(0, 62, 93, 0.12);
-        }
-
-    }
-}
 
 }
 
@@ -164,30 +143,7 @@ a, a:hover, a:active, a:focus {
             font-size: 14px;
         }
     }
-.site-main {
-    article:nth-child(1) {
-        .content-geral {
-            box-shadow: initial;
-            &:hover {
-                    box-shadow: 0 12px 60px hsla(0,0%,4%,.3);
-            }
-        }
 
-    }
-}
-#faq .container .row div{
-    padding: 20px 15px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#faq .container .row div.col-md-12 {
-    justify-content: start;
-}
-.social-media-icons {
-    position: fixed;
-    top: 300px;
-}
 }
 
 @media only screen and (max-width: $sm) {
@@ -208,43 +164,18 @@ top: 0;
 
 }
 .featured-image-thumb {
-      max-height: 245px;
     width: 100%;
 }
-   #firstNewsleter .container {
-        padding: 40px 0px;
-    }
-    .b-email {
-        width: 100%;
-    }
-    .i-email {
-        width: 100%;
-    }
-        .app-store-bp {
-  text-align: center;
-}
 
-.button-store {
-    margin-top: 20px;
-}
 header {
     h1 {
         font-size: 30px;
     }
 }
-#faq .container .row div {
-    padding: 15px 15px 10px;
-}
-.rodape {
-    display: block !important;
-    border-top: none !important;
-}
+
 }
 
 @media only screen and (max-width: $md) {
-  .recent-post-le {
-            line-height: 1.21;
-        }
 }
 @media only screen and (min-width: $md) {
 
@@ -256,22 +187,9 @@ font-size: 12px;
                 }
         }
        }
-    #firstNewsleter .container {
-        padding: 40px 0px;
-    }
-    #firstNewsleter .container .row .col-md-12 {
-        flex-direction: row;
-    }
-  
-  
 }
 
 
 @media only screen and (min-width: $lg) {
-    #firstNewsleter .container .row .col-md-12 {
-        flex-direction: row;
-    }
-    #faq .container .row div {
-            min-height: 85px;
-    }
+
 }

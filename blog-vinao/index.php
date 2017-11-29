@@ -21,7 +21,7 @@
                         
             ?>
             
-            <article class="col-xs-12 col-xs-offset-1 col-sm-offset-0 col-md-offset-0 col-sm-6 col-md-2 post">
+            <article class="col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-sm-6 col-md-4 col-lg-3 post">
                 <div class="content-geral">
                     <div class="content-image">
                         <a href="<?php the_permalink();?>">

@@ -1,20 +1,23 @@
-.post {
-	overflow: hidden;
-    padding: 0;
-	max-height: 270px;
-	.content-image {
-		width: 300px;
-		height: 300px;
-		a {
-			overflow: hidden;
-			max-height: 100%;
-			img {
-				    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.home-main {
+	padding-top: 20px;
+	.post {
+		overflow: hidden;
+		padding: 0;
+		max-height: 270px;
+		.content-image {
+			width: 300px;
+			height: 300px;
+			a {
+				overflow: hidden;
+				max-height: 100%;
+				img {
+					width: 100%;
+   					height: auto;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
 			}
 		}
 	}
